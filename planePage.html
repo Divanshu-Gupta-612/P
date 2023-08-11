@@ -1,165 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
-</head>
-<body>
-    <div class="container1">
-        <div class="monthlyPlan">
+  </head>
+  <body>
+        <div class="MainContainer">
+        <div class="container1">
+            <div class="monthlyPlan">
             <div class="items rowname">
                 <div class="container">
-                    <div class="btn-group">
-                        <button class="btn active" id="monthlyBtn">Monthly</button>
-                        <button class="btn" id="yearlyBtn">Yearly</button>
-                    </div>
+                <div class="btn-group">
+                    <button class="btn active" id="monthlyBtn">Monthly</button>
+                    <button class="btn" id="yearlyBtn">Yearly</button>
+                </div>
                 </div>
             </div>
             <div class="items">
-                <button class="mobile">
-                    Mobile
-                </button>
+                <button class="mobile">Mobile</button>
             </div>
             <div class="items">
-                <button class="basic">
-                    Basic
-                </button>
+                <button class="basic">Basic</button>
             </div>
             <div class="items">
-                <button class="standard">
-                    Standard
-                </button>
+                <button class="standard">Standard</button>
             </div>
             <div class="items">
-                <button class="premium">
-                    Premium
-                </button>
+                <button class="premium">Premium</button>
             </div>
-        </div>
+            </div>
 
-        <div class="monthlyPlan haveUl">
+            <div class="monthlyPlan haveUl">
             <div class="items rowname">Monthly Price</div>
             <div class="items">
-                <div class="upperRow">
-                    $100
-                </div>
+                <div class="upperRow">$100</div>
             </div>
             <div class="items">
-                <div class="upperRow">
-                    $200
-                </div>
+                <div class="upperRow">$200</div>
             </div>
             <div class="items">
-                <div class="upperRow">
-                    $500
-                </div>
+                <div class="upperRow">$500</div>
             </div>
             <div class="items">
-                <div class="upperRow">
-                    $700
-                </div>
+                <div class="upperRow">$700</div>
             </div>
-        </div>
-        <!-- <div>
-            <hr class="lineBottom">
-        </div> -->
-        <div class="monthlyPlan haveUl">
-            <div class="items rowname">
-                Video Quality
+            </div>
+            <!-- <div>
+                <hr class="lineBottom">
+            </div> -->
+            <div class="monthlyPlan haveUl">
+            <div class="items rowname">Video Quality</div>
+            <div class="items">
+                <div class="upperRow">Good</div>
             </div>
             <div class="items">
-                <div class="upperRow">
-                    Good
-                </div>
+                <div class="upperRow">Good</div>
             </div>
             <div class="items">
-                <div class="upperRow">
-                    Good
-                </div>
+                <div class="upperRow">Better</div>
             </div>
             <div class="items">
-                <div class="upperRow">
-                    Better
-                </div>
+                <div class="upperRow">Best</div>
+            </div>
+            </div>
+            <div class="monthlyPlan haveUl">
+            <div class="items rowname">Resolution</div>
+            <div class="items">
+                <div class="upperRow">480p</div>
             </div>
             <div class="items">
-                <div class="upperRow">
-                    Best
-                </div>
-            </div>
-        </div>
-        <div class="monthlyPlan haveUl">
-            <div class="items rowname">
-                Resolution
+                <div class="upperRow">480p</div>
             </div>
             <div class="items">
-                <div class="upperRow">
-                    480p
-                </div>
+                <div class="upperRow">1080p</div>
             </div>
             <div class="items">
-                <div class="upperRow">
-                    480p
-                </div>
+                <div class="upperRow">4k+HDR</div>
             </div>
-            <div class="items">
-                <div class="upperRow">
-                    1080p
-                </div>
             </div>
-            <div class="items">
-                <div class="upperRow">
-                    4k+HDR
-                </div>
-            </div>
-        </div>
-        <div class="monthlyPlan lowerRow">
-            <div class="items rowname">Device you can use to watch</div>
-            <div class="items">Phone</div>
-            <div class="items">Phone</div>
-            <div class="items">Phone</div>
-            <div class="items">Phone</div>
-        </div>
-        <div class="monthlyPlan lowerRow">
-            <div class="items"></div>
-            <div class="items">Tablet</div>
-            <div class="items">Tablet</div>
-            <div class="items">Tablet</div>
-            <div class="items">Tablet</div>
-        </div>
-        <div class="monthlyPlan lowerRow">
-            <div class="items"></div>
-            <div class="items"></div>
-            <div class="items">Computer</div>
-            <div class="items">Computer</div>
-            <div class="items">Computer</div>
-        </div>
-        <div class="monthlyPlan lowerRow">
-            <div class="items"></div>
-            <div class="items"></div>
-            <div class="items">TV</div>
-            <div class="items">TV</div>
-            <div class="items">TV</div>
-        </div>
-    </div>
-</body>
 
-<script>
-    const monthlyBtn = document.getElementById("monthlyBtn");
-    const yearlyBtn = document.getElementById("yearlyBtn");
+            <div class="monthlyPlan lowerRow">
+                <div class="items rowname">Device you can use to watch</div>
+                <div class="items">Phone</div>
+                <div class="items">Phone</div>
+                <div class="items">Phone</div>
+                <div class="items">Phone</div>
+            </div>
 
-    monthlyBtn.addEventListener("click", function(){
+            <div class="monthlyPlan lowerRow">
+                <div class="items"></div>
+                <div class="items">Tablet</div>
+                <div class="items">Tablet</div>
+                <div class="items">Tablet</div>
+                <div class="items">Tablet</div>
+            </div>
+            <div class="monthlyPlan lowerRow">
+                <div class="items"></div>
+                <div class="items"></div>
+                <div class="items">Computer</div>
+                <div class="items">Computer</div>
+                <div class="items">Computer</div>
+            </div>
+            <div class="monthlyPlan lowerRow">
+                <div class="items"></div>
+                <div class="items"></div>
+                <div class="items">TV</div>
+                <div class="items">TV</div>
+                <div class="items">TV</div>
+            </div>
+        </div>
+        <div class="container2">
+            <button class="nextbtn">Next</button>
+        </div>
+        </div>
+    </body>
+
+
+    <script>
+        const monthlyBtn = document.getElementById("monthlyBtn");
+        const yearlyBtn = document.getElementById("yearlyBtn");
+
+        monthlyBtn.addEventListener("click", function () {
         monthlyBtn.classList.add("active");
         yearlyBtn.classList.remove("active");
-    });
+        });
 
-    yearlyBtn.addEventListener("click", function(){
+        yearlyBtn.addEventListener("click", function () {
         yearlyBtn.classList.add("active");
         monthlyBtn.classList.remove("active");
-    });
-</script>
+        });
+    </script>
 </html>
-
-
