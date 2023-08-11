@@ -7,6 +7,10 @@ body{
     background-color: #4267B2;
     display: flex;
 }
+.loginHeading{
+    font-weight: 400;
+    font-size: larger;
+}
 #child{
     border-radius: 10px;
     margin: auto auto;
@@ -19,7 +23,7 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #main{
-    width: 220px;
+    width: 290px;
 }
 h3{
     margin-bottom: 25px;
