@@ -50,3 +50,83 @@ p{
 a{
     text-decoration: none;
 }
+
+
+/* Plan Page */
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.monthlyPlan{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+/* background color */
+.items{
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    /* background-color: aqua;
+    border: 2px solid gray; */
+}
+
+.container {
+    padding: 20px;
+}
+
+.btn-group {
+    display: inline-block;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn.active {
+    background-color: #0056b3;
+}
+
+.mobile, .basic, .standard, .premium{
+    /* display: flex; */
+    margin: auto;
+    background-color: lightskyblue;
+    padding: 23px;
+    color: white;
+}
+
+.lineBottom{
+    margin-left: 29px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.haveUl{
+    border-bottom: 0.5px solid green;
+}
+
+.upperRow{
+    height: 40px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
