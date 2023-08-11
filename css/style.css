@@ -84,9 +84,9 @@ body{
     border: 2px solid gray; */
 }
 
-.container {
-    padding: 20px;
-}
+/* .container {
+    /* padding: 20px; 
+} */
 
 .btn-group {
     display: inline-block;
@@ -122,7 +122,7 @@ body{
 }
 
 .haveUl{
-    border-bottom: 0.5px solid green;
+    border-bottom: 0.5px solid grey;
 }
 
 .upperRow{
@@ -136,4 +136,9 @@ body{
 .lowerRow .items{
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.rowname{
+    text-align: start;
+    padding-left: 15px;
 }
